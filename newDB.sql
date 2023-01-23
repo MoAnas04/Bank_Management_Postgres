@@ -27,6 +27,8 @@ create table Customers (
   check(updated_at > created_at)
 );
 
+create index branch_idx on Customers(branch_id);
+
 create table Accounts(
   id bigserial primary key,
   number bigint not null unique,
@@ -39,6 +41,8 @@ create table Accounts(
   updated_at timestamp without time zone,
   check(created_at < updated_at)
 );
+
+create index accounts_customer_id_index on Accounts(customer_id);
 
 create table Loans (
   id bigserial primary key,
@@ -58,6 +62,8 @@ create table Loans (
   check (monthly_emi_remaining < period)
 );
 
+create index loans_customer_id_index on Loans(customer_id);
+
 --check for prepaid??
 create table Loan_Payments (
   id bigserial primary key,
@@ -68,6 +74,7 @@ create table Loan_Payments (
   prepaid boolean not null
 );
 
+create index loan_payments_loan_id_index on Loan_Payments(loan_id);
 
 create table Transactions (
   id bigserial primary key,
@@ -78,6 +85,9 @@ create table Transactions (
   created_at timestamp without time zone default now() not null
 );
 
+create index transactions_sender_id_index on Transactions(sender_id);
+create index transactions_receiver_id_index on Transactions(receiver_id);
+
 create table Withdraws (
   id bigserial primary key,
   account_id bigint not null references Accounts(id),
@@ -87,6 +97,8 @@ create table Withdraws (
   check (amount <= balance)
 );
 
+create index withdraws_account_id_index on Withdraws(account_id);
+
 create table Deposits (
   id bigserial primary key,
   account_id bigint not null references Accounts(id),
@@ -95,5 +107,4 @@ create table Deposits (
   created_at timestamp without time zone default now() not null
 );
 
-
--- 23/1/23
+create index deposits_account_id_index on Deposits(account_id);
