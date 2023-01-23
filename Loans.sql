@@ -1,0 +1,10 @@
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (8, 'education', 894191, 8.98, 39, 94750.91, 13839.8, 12, '2023-01-26');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (5, 'education', 308417, 7.63, 44, 190520.96, 16250.08, 7, '2023-01-07');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (4, 'car', 779001, 7.7, 43, 474191.24, 14806.51, 26, '2023-01-22');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (4, 'car', 483762, 9.33, 29, 310511.11, 16078.83, 24, '2023-01-13');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (2, 'education', 793486, 10.34, 36, 277496.0, 15622.04, 30, '2023-01-27');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (4, 'house', 906354, 9.1, 49, 596746.66, 13741.33, 44, '2023-01-11');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (3, 'car', 451025, 8.64, 45, 116955.93, 15349.57, 8, '2023-01-23');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (3, 'other', 797684, 7.09, 54, 526559.28, 10884.74, 20, '2023-01-14');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (2, 'other', 988326, 9.49, 29, 605741.02, 12466.14, 22, '2023-01-24');
+insert into Loans (customer_id, type, amount, interest, period, balance, monthly_emi, monthly_emi_remaining, monthly_emi_date) values (5, 'personal', 609587, 7.3, 37, 269643.46, 13934.93, 8, '2023-01-22');
