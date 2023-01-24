@@ -1,0 +1,10 @@
+insert into Deposits (account_id, amount, balance) values (10, 7296, 42103.01);
+insert into Deposits (account_id, amount, balance) values (10, 6613, 47211.52);
+insert into Deposits (account_id, amount, balance) values (3, 1229, 33994.77);
+insert into Deposits (account_id, amount, balance) values (7, 4450, 33101.28);
+insert into Deposits (account_id, amount, balance) values (7, 8942, 26787.43);
+insert into Deposits (account_id, amount, balance) values (2, 3524, 10148.26);
+insert into Deposits (account_id, amount, balance) values (3, 5226, 30159.62);
+insert into Deposits (account_id, amount, balance) values (9, 5773, 36833.18);
+insert into Deposits (account_id, amount, balance) values (8, 3743, 44443.97);
+insert into Deposits (account_id, amount, balance) values (2, 3590, 25644.0);

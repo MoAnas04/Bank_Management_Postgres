@@ -1,0 +1,10 @@
+insert into Withdraws (account_id, amount, balance) values (8, 3499, 24222.84);
+insert into Withdraws (account_id, amount, balance) values (5, 7698, 14816.58);
+insert into Withdraws (account_id, amount, balance) values (2, 4629, 25066.4);
+insert into Withdraws (account_id, amount, balance) values (4, 1975, 24589.17);
+insert into Withdraws (account_id, amount, balance) values (6, 2555, 11756.96);
+insert into Withdraws (account_id, amount, balance) values (2, 2770, 28361.4);
+insert into Withdraws (account_id, amount, balance) values (7, 9471, 29824.29);
+insert into Withdraws (account_id, amount, balance) values (8, 4115, 28960.86);
+insert into Withdraws (account_id, amount, balance) values (2, 1541, 25505.79);
+insert into Withdraws (account_id, amount, balance) values (1, 9056, 35887.41);

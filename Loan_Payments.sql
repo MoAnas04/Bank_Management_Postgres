@@ -1,0 +1,10 @@
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (3, '37-360-9984', '2023-01-22 10:30:15.043355', 15090.11, true);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (9, '14-000-7477', '2023-01-20 01:15:15.043355', 12316.05, true);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (6, '22-815-8579', '2023-01-07 03:03:15.043355', 13569.92, true);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (3, '37-224-6930', '2023-01-15 08:37:15.043355', 13029.17, false);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (2, '04-601-3909', '2023-01-28 12:13:15.043355', 15421.82, false);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (3, '42-692-7870', '2023-01-29 05:30:15.043355', 15193.25, false);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (9, '85-373-6181', '2023-01-03 07:17:15.043355', 12997.91, true);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (8, '02-737-4100', '2023-01-18 11:50:15.043355', 15907.5, true);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (9, '65-192-5285', '2023-01-20 10:49:15.043355', 13226.89, false);
+insert into Loan_Payments (loan_id, payment_id, date, amount, prepaid) values (10, '52-934-5443', '2023-01-19 10:30:15.043355', 17798.79, false);

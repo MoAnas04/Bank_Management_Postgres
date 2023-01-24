@@ -1,0 +1,10 @@
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (5, 'Alon', 'Delahunt', 'Trinidad and Tobago', 'TT', 'Couva',ARRAY ['4 Veith Hill'], 347462);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (2, 'Kalinda', 'MacAvddy', 'Indonesia', 'ID', 'Radamata',ARRAY ['032 Blaine Court'], 384934);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (4, 'Prisca', 'Yurenev', 'Philippines', 'PH', 'Infanta',ARRAY ['7 Pierstorff Parkway'], 948348);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (4, 'Jaynell', 'Newland', 'Argentina', 'AR', 'Neuquén',ARRAY ['3 Bartelt Parkway'], 943758);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (1, 'Adorne', 'Fairtlough', 'Brazil', 'BR', 'Porciúncula',ARRAY ['05740 Twin Pines Lane'], 742735);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (5, 'Rhoda', 'Rillett', 'Poland', 'PL', 'Wawer',ARRAY ['2 Talisman Parkway'], 842943);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (1, 'Hamlen', 'Arman', 'Philippines', 'PH', 'Kalamangog',ARRAY ['44697 Dennis Court'], 948204);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (5, 'Fredra', 'Cackett', 'China', 'CN', 'Hebi',ARRAY ['104 Fulton Street'], 875245);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (1, 'Gran', 'Bloss', 'Egypt', 'EG', 'Ash Shaykh Zuwayd',ARRAY ['8945 Tennyson Alley'], 742853);
+insert into Customers (branch_id, first_name , last_name, country, state, city , address, postal_code) values (5, 'Washington', 'Siviour', 'Yemen', 'YE', 'Dhī Nā‘im',ARRAY ['15 Ridgeview Way'], 953954);
